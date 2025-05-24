@@ -6,9 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      borderRadius: {
-        md: '0.375rem',
-      }
+      
     }
   },
   plugins: [],
