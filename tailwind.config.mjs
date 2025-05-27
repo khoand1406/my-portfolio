@@ -27,6 +27,7 @@ export default {
           '70%': { opacity: '1' },
           '100%': { transform: 'rotate(215deg) translateX(-500px)', opacity: '0' },
         },
+        
       },
     },
   },

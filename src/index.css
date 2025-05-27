@@ -169,3 +169,19 @@
   text-align: center;
 }
 
+.animate-fade-in {
+  animation: var(--animate-fade-in);
+}
+.animate-fade-in-delay-1 {
+  animation: var(--animate-fade-in-delay-1);
+}
+.animate-fade-in-delay-2 {
+  animation: var(--animate-fade-in-delay-2);
+}
+.animate-fade-in-delay-3 {
+  animation: var(--animate-fade-in-delay-3);
+}
+.animate-fade-in-delay-4 {
+  animation: var(--animate-fade-in-delay-4);
+}
+
