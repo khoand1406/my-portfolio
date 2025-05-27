@@ -2,6 +2,7 @@ import { AboutSection } from "../components/About"
 import { StarsBackground } from "../components/Background"
 import { HeroSection } from "../components/HeroSection"
 import { NavBar } from "../components/NavBar"
+import { ProjectSection } from "../components/Projects/ProjectSections"
 import { SkillSets } from "../components/Skill/Skill"
 import { ThemeToggle } from "../components/ThemeToggle"
 export const Home= ()=> {
@@ -16,7 +17,7 @@ export const Home= ()=> {
         <HeroSection />
         <AboutSection></AboutSection>
         <SkillSets></SkillSets>
-
+        <ProjectSection/>
         {/*Footer */}
 
     </div>

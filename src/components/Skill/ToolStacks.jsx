@@ -1,5 +1,6 @@
 
 import {
+    SiJirasoftware,
     SiMacos,
     SiPostman,
     SiSlack,
@@ -8,7 +9,7 @@ import {
 } from "react-icons/si";
 
 const tools = [
-  { icon: <SiMacos />, name: "macOS" },
+  { icon: <SiJirasoftware />, name: "Jira" },
   { icon: <SiVsco />, name: "VS Code" },
   { icon: <SiPostman />, name: "Postman" },
   { icon: <SiSlack />, name: "Slack" },
