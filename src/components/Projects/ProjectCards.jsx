@@ -1,11 +1,9 @@
-import React from "react";
-import { ExternalLink } from "lucide-react";
-import { SiGithub } from "react-icons/si"
+import { SiGithub } from "react-icons/si";
 
 const ProjectCard = ({ title, description, image, tags, demoUrl, githubUrl }) => {
   return (
     <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
-      <div className="h-48 overflow-hidden">
+      <div className="h-105 overflow-hidden">
         <img
           src={image}
           alt={title}
@@ -30,14 +28,6 @@ const ProjectCard = ({ title, description, image, tags, demoUrl, githubUrl }) =>
 
         <div className="flex justify-between items-center">
           <div className="flex space-x-3">
-            <a
-              href={demoUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
-            >
-              <ExternalLink size={20} />
-            </a>
             <a
               href={githubUrl}
               target="_blank"
