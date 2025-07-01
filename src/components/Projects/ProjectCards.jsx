@@ -1,5 +1,5 @@
 import { SiGithub } from "react-icons/si";
-
+import {ExternalLink } from "lucide-react";
 const ProjectCard = ({ title, description, image, tags, demoUrl, githubUrl }) => {
   return (
     <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
@@ -36,6 +36,13 @@ const ProjectCard = ({ title, description, image, tags, demoUrl, githubUrl }) =>
             >
               <SiGithub size={20} />
             </a>
+            <a
+                      href={demoUrl}
+                      target="_blank"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    >
+                      <ExternalLink size={20} />
+                    </a>
           </div>
         </div>
       </div>

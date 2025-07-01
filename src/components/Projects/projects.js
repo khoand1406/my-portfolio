@@ -4,8 +4,8 @@ export const projects = [
     title: "DOTEL landing page",
     description: "A beautiful landing page app with responsice design using Boostrap",
     image: "/project/project1.jpg",
-    tags: ["HTML", "CSS", "JS", "Boostrap", "Jquery"],
-    demoUrl: "#",
+    tags: ["HTML", "CSS", "JS", "Boostrap", "AJAX", ".NET", "SQL Server"],
+    demoUrl: "https://dotel-bvf5gwccf4dgf4f3.southeastasia-01.azurewebsites.net/",
     githubUrl: "https://github.com/khoand1406/Dotel",
   },
   {
